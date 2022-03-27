@@ -1,0 +1,69 @@
+* {
+	font-family: "Montserrat", sans-serif;
+	padding: 0;
+	margin: 0;
+
+}
+
+p {
+	color: whitesmoke;
+}
+h1 {
+	color: #007bff;
+
+}
+
+h1:hover {
+	color: yellow;
+}
+
+img {
+	height: 250px;
+	width: 250px; 
+}
+
+container-fluid {
+	margin-top: 20px;
+}
+
+#landing{
+	/*vh -viewport height - measurement based on the height of the web page and the device you're currently viewing the page in */
+height: 90vh;
+/*We can manipulate the contents of an element using flexbox*/
+display: flex;
+/*Arrange the contents of an element with flex, as a column*/
+flex-direction: column ;
+/*Center all contents of an element with flex as a  column (horizontally)*/
+align-items: center;
+/*Center all contents of an element with flex as a column(vertically)*/
+justify-content: safe center;
+
+}
+
+#gallery {
+	height:  75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: safe center;
+}
+
+ul { 
+	list-style: none;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	border: 10px solid whitesmoke;
+	padding: 25px;
+	margin: 20px;
+	height: 200px;
+	width: 50%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
